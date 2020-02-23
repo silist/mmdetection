@@ -40,8 +40,8 @@ This project is released under the [Apache 2.0 license](LICENSE).
 
 ## Changelog
 
-v1.0rc1 was released in 13/12/2019, with more than 20 bug fixes and 30 improvements and new features.
-Please refer to [CHANGELOG.md](docs/CHANGELOG.md) for details and history versions.
+v1.0.0 was released in 30/1/2020, with more than 20 fixes and improvements.
+Please refer to [CHANGELOG.md](docs/CHANGELOG.md) for details and release history.
 
 ## Benchmark and model zoo
 
@@ -70,16 +70,19 @@ Results and models are available in the [Model zoo](docs/MODEL_ZOO.md).
 | Foveabox           | ✓        | ✓        | ☐        | ✗        | ✓     |
 | FreeAnchor         | ✓        | ✓        | ☐        | ✗        | ✓     |
 | NAS-FPN            | ✓        | ✓        | ☐        | ✗        | ✓     |
+| ATSS               | ✓        | ✓        | ☐        | ✗        | ✓     |
 
 Other features
-- [x] DCNv2
-- [x] Group Normalization
-- [x] Weight Standardization
+- [x] [CARAFE](configs/carafe/README.md)
+- [x] [DCNv2](configs/dcn/README.md)
+- [x] [Group Normalization](configs/gn/README.md)
+- [x] [Weight Standardization](configs/gn+ws/README.md)
 - [x] OHEM
 - [x] Soft-NMS
-- [x] Generalized Attention
-- [x] GCNet
-- [x] Mixed Precision (FP16) Training
+- [x] [Generalized Attention](configs/empirical_attention/README.md)
+- [x] [GCNet](configs/gcnet/README.md)
+- [x] [Mixed Precision (FP16) Training](https://github.com/open-mmlab/mmdetection/blob/master/configs/fp16)
+- [x] [InstaBoost](configs/instaboost/README.md)
 
 
 ## Installation
